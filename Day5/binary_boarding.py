@@ -33,7 +33,7 @@ for boarding_pass in boarding_passes:
 print(max_board)
 
 seat_ids.sort()
-
+print(seat_ids)
 starting_value = seat_ids[1]
 for i in range(1, len(seat_ids) - 1):
     if not starting_value == seat_ids[i]:
